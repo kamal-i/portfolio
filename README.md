@@ -80,6 +80,12 @@ python3 -m http.server 8000
 - **Motif bintang delapan** pada hero adalah elemen garis tipis yang
   merujuk pada pola geometris Islam secara halus, tanpa berlebihan.
 - Struktur HTML sudah semantik, dapat diakses (fokus keyboard terlihat,
-  navigasi ARIA, `prefers-reduced-motion` dihormati), serta dilengkapi
-  metadata SEO (Open Graph, Twitter Card, JSON-LD `Person`, sitemap,
-  robots.txt) sehingga siap diindeks mesin pencari.
+  navigasi ARIA, `prefers-reduced-motion` dihormati, kontras warna teks
+  memenuhi standar WCAG AA), serta dilengkapi metadata SEO (Open Graph,
+  Twitter Card, JSON-LD `Person`, sitemap, robots.txt) sehingga siap
+  diindeks mesin pencari.
+- **Responsif** diuji pada enam lebar layar (360–1440px). Navigasi
+  beralih ke menu ikon-garis begitu ruang tidak lagi cukup untuk semua
+  tautan (di bawah 900px), dan tata letak setiap bagian — hero, kartu
+  keahlian, proses, studi kasus — menyesuaikan jumlah kolom secara
+  bertahap alih-alih melompat kaku di satu titik.
